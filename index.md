@@ -16,7 +16,7 @@ layout: default
 
         <p>We build products that scale human understanding with model labor. Currently, we are building tooling that tells you what your ML evals and environments are truly testing for. In the long run, we want to build the inference time infrastructure to safely deploy agents in the world.</p>
 
-        <p>If you are building environments or deploying agents, <a href="mailto:{{ site.email }}">contact us</a> to try our tooling.</p>
+        <p>If you are building RL environments, evals, or deploying agents, <a href="mailto:{{ site.email }}">contact us</a> to try our tooling.</p>
 
         {% if site.posts.size > 0 %}
         <div class="posts-section" style="margin: 3rem 0;">
