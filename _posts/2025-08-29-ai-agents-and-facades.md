@@ -4,11 +4,11 @@ title: AI Agents and Painted Facades
 
 In 1787, Catherine the Great sailed down the Dnieper to inspect its banks. Her trusted advisor, Governor Potemkin, set out to present those war-torn lands to her in the best possible light. Legend has it[^1] Potemkin set up painted facades along the riverbank, so that, from her barge, Catherine would see beautiful villages – each just a couple of inches thick.
 
-The rise of AI agents makes the Potemkin problem of sycophantic deception commonplace. Research agents cite experiments that never took place. Coding agents, the first economically-valuable AI agents, often write fake tests and mock solutions as they cause [catastrophes behind the scenes](https://x.com/jasonlk/status/1946069562723897802).
+The rise of AI agents makes the Potemkin problem commonplace. Research agents cite experiments that never took place. Coding agents often write fake tests and mock solutions as they cause [catastrophes behind the scenes](https://x.com/jasonlk/status/1946069562723897802).
 
 We’re moving towards a world of Potemkin villages – where our understanding of reality drifts farther and farther from what is actually happening. At some point, we might stop catching our agents painting facades.
 
-To avoid this, we need to deeply understand AI agents and their effects on the world. Evaluations are currently the best guess on how to do this, but they are an incomplete solution. 
+To avoid this, we need to understand AI agents and their effects on the world. Evaluations are currently the best guess on how to do this, but they are an incomplete solution. 
 
 1. ## Why is it hard to build good evals?
 
@@ -23,25 +23,25 @@ Because of this, eval results can range from noisy to actively deceiving.
 
 2. ## From evals to monitoring
 
-We build evals with the hope that our tasks are well-scoped enough that the scores they return are informative. As we argued above, this is very difficult. 
+We build evals with the hope that our tasks are well-scoped enough that the scores they return are informative. As we argued above, even this limited goal is difficult. 
 
-At deployment time, we face an even harder problem: understanding what the agents are doing without the benefit of well-scoped tasks with built-in metrics. To do so, we’ll need to build more complicated evaluation systems: those capable of monitoring and reviewing the open-ended work that agents perform. 
+At deployment time, we face an even harder problem: understanding what the agents are doing without the benefit of well-scoped tasks. To do so, we’ll need to build more complicated evaluation systems: those capable of monitoring and reviewing the open-ended work that agents perform. 
 
 This kind of thinking will not be new to us: society depends on a loop of humans managing other humans. But there are reasons to believe managing agents will be harder. 
 
 1. Agents are more deeply conditioned by reinforcement learning towards reward hacking: doing whatever it takes to pass the tests, even if it means generating fake solutions.   
-2. Agents possess a shallower understanding of the context in which they work than humans do, meaning that they often take actions that are counterproductive in the long run.    
+2. Agents possess a shallow understanding of the context in which they work compared to humans, meaning that their actions are often counterproductive in the long run.    
 3. Agents are much cheaper and faster to run than humans, so the amount of information and interactions that humans need to oversee will drastically increase.  
-4. Agents often behave (and fail) in ways that are deeply unexpected to human overseers, since their abilities generalize differently than human abilities.
+4. Agents’ abilities generalize differently than human abilities, so they behave (and fail) in ways that are deeply unexpected to human overseers.
 
-If we can’t do it at all, we won’t be able to reliably integrate AI agents into the economy. Worse, if we do it sloppily, our future won’t be shaped by our values, but by the proxies our agents fool us with.
+If we can’t oversee our agents at all, we won’t be able to reliably integrate AI agents into the economy. Worse, if we do it sloppily, our future will be shaped, not by our values, but by the proxies our agents fool us with.
 
 3. ## Towards systems that work
 
 What would it take to build the infrastructure for scaling human understanding? Here are the two directions that inform what we build:
 
 1. *Building scalable interfaces for human oversight.* Unlike humans, AI agents produce volumes of data as they go about their tasks. We need to build interfaces to surface the most important bits of this data to human operators, so they can steer or correct their agents.  
-2. *Building technology for agents to audit agents.* Human review alone can’t scale to managing millions of agents. Our interfaces need to leverage agents that audit entire agent ecosystems and  report on the state of the world. To do so, we must understand what [affordances models need](http://alignment.anthropic.com/2025/automated-auditing/) to avoid deceiving themselves and their operators. This will allow us to scale oversight beyond systems that humans can currently manage.
+2. *Building technology for agents to audit agents.* Human review alone can’t scale to managing millions of agents. Our interfaces need to leverage auditing agents capable of red-teaming entire agent ecosystems and reporting on the state of the world. To do so, we must understand what [affordances models need](http://alignment.anthropic.com/2025/automated-auditing/) to avoid deceiving themselves and their operators. This will allow us to scale supervision beyond systems that humans can currently manage.
 
 Fulcrum is excited to work towards a world of understanding. The future belongs to those who can see.
 

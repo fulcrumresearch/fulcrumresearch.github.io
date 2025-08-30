@@ -10,7 +10,7 @@ layout: default
     <div class="container" style="flex: 1;">
         <h1>Fulcrum Research</h1>
         
-        <p>Much of the work of the future will be executed by AI agents. They will write software, perform research, and carry out knowledge tasks we can't yet imagine. The details of this work will be unknown to any human. </p>
+        <p>Much of the work of the future will be executed by AI agents. They will write software, perform research, and carry out knowledge tasks we can't yet imagine.</p>
 
         <p>Our current stack for understanding is not ready for a world that humans didn't build.</p>
 
