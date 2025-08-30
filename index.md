@@ -20,7 +20,7 @@ layout: default
 
         {% if site.posts.size > 0 %}
         <div class="posts-section" style="margin: 3rem 0;">
-            <h2 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: normal;">Essays</h2>
+            <h2 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: normal;">Posts</h2>
             <ul style="list-style: none; padding: 0;">
             {% for post in site.posts %}
                 <li style="margin-bottom: 1.5rem;">
