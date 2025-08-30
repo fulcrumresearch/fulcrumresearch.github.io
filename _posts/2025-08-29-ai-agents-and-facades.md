@@ -10,7 +10,7 @@ We’re moving towards a world of Potemkin villages – where our understanding 
 
 To avoid this, we need to understand AI agents and their effects on the world. Evaluations are currently the best guess on how to do this, but they are an incomplete solution. 
 
-1. ## Why is it hard to build good evals?
+## Why is it hard to build good evals?
 
 Evaluations (or *evals*) measure how well an agent performs on tasks that you care about by testing it on similar tasks. Done properly, this proxy allows you to debug model training, build better agent scaffolds, or understand the speed of AI progress.
 
@@ -21,7 +21,7 @@ There are two major sources of difficulties in building good evals.
 
 Because of this, eval results can range from noisy to actively deceiving. 
 
-2. ## From evals to monitoring
+## From evals to monitoring
 
 We build evals with the hope that our tasks are well-scoped enough that the scores they return are informative. As we argued above, even this limited goal is difficult. 
 
@@ -36,7 +36,7 @@ This kind of thinking will not be new to us: society depends on a loop of humans
 
 If we can’t oversee our agents at all, we won’t be able to reliably integrate AI agents into the economy. Worse, if we do it sloppily, our future will be shaped, not by our values, but by the proxies our agents fool us with.
 
-3. ## Towards systems that work
+## Towards systems that work
 
 What would it take to build the infrastructure for scaling human understanding? Here are the two directions that inform what we build:
 
