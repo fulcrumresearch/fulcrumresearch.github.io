@@ -1,0 +1,18 @@
+title: Fulcrum Research
+description: Research lab building tools to empower human decision making in the age of AI
+email: team@fulcrumresearch.ai
+baseurl: ""
+url: "https://fulcrumresearch.ai"
+domain: fulcrumresearch.ai
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
