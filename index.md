@@ -33,5 +33,24 @@ layout: default
         {% endif %}
         
         <p>You can reach us here: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+
+        <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px dotted #333;">
+            <p style="margin-bottom: 1rem;">Sign up for updates:</p>
+            <form action="https://formspree.io/f/xyzdejre" method="POST" style="display: flex; gap: 0.5rem; max-width: 400px;">
+                <input 
+                    type="email" 
+                    name="email" 
+                    required
+                    placeholder="your@email.com"
+                    style="flex: 1; padding: 0.5rem; font-family: 'Courier Prime', monospace; font-size: 0.95rem; border: 1px solid #333; background-color: transparent; color: #333;">
+                <button 
+                    type="submit"
+                    style="padding: 0.5rem 1.5rem; font-family: 'Courier Prime', monospace; font-size: 0.95rem; background-color: #333; color: #ded5bd; border: 1px solid #333; cursor: pointer; transition: all 0.2s;"
+                    onmouseover="this.style.backgroundColor='transparent'; this.style.color='#333';"
+                    onmouseout="this.style.backgroundColor='#333'; this.style.color='#ded5bd';">
+                    Subscribe
+                </button>
+            </form>
+        </div>
     </div>
 </div>
