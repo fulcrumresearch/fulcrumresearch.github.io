@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div style="display: flex; align-items: flex-start; max-width: 850px; margin: 0 auto;">
-    <div style="flex-shrink: 0; width: 150px; padding-top: 2rem;">
+<div class="main-wrapper">
+    <div class="logo-container">
         <img src="/assets/images/logo.png" height="30">
     </div>
     
-    <div class="container" style="flex: 1;">
+    <div class="container">
         <h1>Fulcrum Research</h1>
         
         <p>Much of the work of the future will be executed by AI agents. They will write software, perform research, and carry out knowledge tasks we can't yet imagine.</p>
@@ -36,7 +36,7 @@ layout: default
 
         <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px dotted #333;">
             <p style="margin-bottom: 1rem;">Sign up for updates:</p>
-            <form action="https://formspree.io/f/xyzdejre" method="POST" style="display: flex; gap: 0.5rem; max-width: 400px;">
+            <form action="https://formspree.io/f/xyzdejre" method="POST" class="email-form" style="display: flex; gap: 0.5rem; max-width: 400px;">
                 <input 
                     type="email" 
                     name="email" 
