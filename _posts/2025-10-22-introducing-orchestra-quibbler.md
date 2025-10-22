@@ -39,7 +39,7 @@ We’ve used Orchestra to:
 1. Iterate on the plan of a complex feature implementation and decompose it into bite sized subtasks  
 2. Work on multiple independent features at the same time  
 3. Implement features in a best-of-n style, where the designer merges the best result in after reviewing the code with you.   
-4. Conduct automated quality or security review on multiple vulnerabilities 
+4. Quickly review code with higher trust using our monitor
 
 ## Looking Ahead
 
