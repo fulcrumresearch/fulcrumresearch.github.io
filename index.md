@@ -37,7 +37,8 @@ layout: default
         <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px dotted #333;">
             <p style="margin-bottom: 1rem;">
                 <a href="https://twitter.com/fulcrumML" target="_blank" rel="noopener noreferrer" style="margin-right: 1rem;">twitter</a>
-                <a href="https://github.com/fulcrumresearch" target="_blank" rel="noopener noreferrer">github</a>
+                <a href="https://github.com/fulcrumresearch" target="_blank" rel="noopener noreferrer" style="margin-right: 1rem;">github</a>
+                <a href="https://discord.gg/QmMybVuwWp" target="_blank" rel="noopener noreferrer">discord</a>
             </p>
             <p style="margin-bottom: 1rem;">Sign up for updates:</p>
             <form action="https://formspree.io/f/xyzdejre" method="POST" class="email-form" style="display: flex; gap: 0.5rem; max-width: 400px;">

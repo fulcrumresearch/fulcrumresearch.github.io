@@ -44,7 +44,6 @@ We’ve used Orchestra to:
 
 Orchestra's oversight features -- model to model orchestration and monitoring -- are what actually makes it possible for parallelization to be useful, and not destructive.
 
-We also have an open [discord server](https://discord.gg/QmMybVuwWp) to engage with users as we improve these tools.
 
 ### Looking Ahead
 
@@ -54,3 +53,5 @@ What are the properties of the interfaces that we will use to manage agents in r
 2. Tree-like structure: users see high level context by default, but they should be able to “dig” into the work agents are doing in arbitrary depth. 
 
 Real-time oversight of agent systems will be critical as agents scale beyond coding. At Fulcrum, we’re working on this problem. If you’re interested, we’d love to hear from you.
+
+We also have an open [discord server](https://discord.gg/QmMybVuwWp) to engage with users as we improve these tools.
