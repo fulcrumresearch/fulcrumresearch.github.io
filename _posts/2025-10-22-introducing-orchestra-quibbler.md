@@ -52,6 +52,6 @@ What are the properties of the interfaces that we will use to manage agents in r
 1. Agentic validation: since human attention is the most expensive resource, we can spend agents compute liberally on falsifying or critiquing other agents’ results.     
 2. Tree-like structure: users see high level context by default, but they should be able to “dig” into the work agents are doing in arbitrary depth. 
 
-Real-time oversight of agent systems will be critical as agents scale beyond coding. At Fulcrum, we’re working on this problem. If you’re interested, we’d love to hear from you.
+Real-time oversight of agent systems will be critical as agents scale. If you’re interested, we’d love to hear from you.
 
 We also have an open [discord server](https://discord.gg/QmMybVuwWp) to engage with users as we improve these tools.
