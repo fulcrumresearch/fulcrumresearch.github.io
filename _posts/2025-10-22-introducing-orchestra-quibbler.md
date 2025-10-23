@@ -9,6 +9,7 @@ Today, we’re excited to announce that we’re open-sourcing two tools:
 
 2. [Orchestra](https://github.com/fulcrumresearch/orchestra) is a multi-agent coding system: it uses a designer agent that spawns and coordinates your parallel coding agents. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jEMFEJIvGs0?si=T-U6U9BTca98KN_j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Motivation
 
@@ -22,7 +23,7 @@ Can we use agents to help us out?
 
 Quibbler is a background agent that monitors and critiques your coding agent’s actions using hooks. Unlike most critics and guardrails, Quibbler is an agent: it can read and understand the context of an agent’s action to see if it made a mistake. 
 
-We’ve found Quibbler useful in preventing agents from
+We’ve found Quibbler useful in preventing agents from:
 
 1. fabricating results without running commands  
 2. not running tests,   
@@ -41,16 +42,15 @@ We’ve used Orchestra to:
 3. Implement features in a best-of-n style, where the designer merges the best result in after reviewing the code with you.   
 4. Quickly review code with higher trust using our monitor
 
-For both of these projects, we now have a 
-To discuss with users and handle requests/
+Orchestra's oversight features -- model to model orchestration and monitoring -- are what actually makes it possible for parallelization to be useful, and not destructive.
 
-We also have an open [discord server](https://discord.gg/QmMybVuwWp) to engage with people using these new tools as we improve them.
+We also have an open [discord server](https://discord.gg/QmMybVuwWp) to engage with users as we improve these tools.
 
-## Looking Ahead
+### Looking Ahead
 
 What are the properties of the interfaces that we will use to manage agents in real time? Here are some ideas:
 
 1. Agentic validation: since human attention is the most expensive resource, we can spend agents compute liberally on falsifying or critiquing other agents’ results.     
 2. Tree-like structure: users see high level context by default, but they should be able to “dig” into the work agents are doing in arbitrary depth. 
 
-Real-time oversight of agent systems will be critical as agents scale beyond coding. At Fulcrum, we’re working on this problem. If you’re interested, we’d love to hear from you. We are hiring.
+Real-time oversight of agent systems will be critical as agents scale beyond coding. At Fulcrum, we’re working on this problem. If you’re interested, we’d love to hear from you.
